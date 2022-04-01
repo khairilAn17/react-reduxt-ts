@@ -5,7 +5,6 @@ import Header from './components/Header';
 import UserProfile from './components/UserProfile';
 import { TRootState } from './store';
 
-
 function App() {
 
   const isAuth = useSelector((state: TRootState) => state.auth.isAuthentication);
